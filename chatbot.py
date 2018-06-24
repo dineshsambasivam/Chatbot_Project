@@ -3,15 +3,15 @@ from chatterbot.trainers import ListTrainer
 import random
 
 bye = [ "Bye", "bye","BYE", "See you", "Thank You","thank you","thankyou","thanks","THANK YOU","THANKS","THANKYOU"]
-bye_responses = [ "Bye.Thanks for using Chatbot." , "Welcome. Thanks for using Chatbot."]
+bye_responses = [ "Bye.Thanks for using Careerbot." , "Welcome. Thanks for using Careerbot."]
 
 greetings = ["hi","Hi","HI"]
-greetings_responses = ["Hello. I'm Chatbot. How can i help you?."]
+greetings_responses = ["Hello. I'm Careerbot. I can help you in finding a job for you."]
 
 
 def get_response(usrText):
 
-    bot = ChatBot('MyBot',
+    bot = ChatBot('Careerbot',
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
         {
