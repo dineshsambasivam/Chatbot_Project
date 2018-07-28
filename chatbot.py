@@ -3,10 +3,10 @@ from chatterbot.trainers import ListTrainer
 import random
 
 bye = [ "Bye", "bye","BYE", "See you", "Thank You","thank you","thankyou","thanks","THANK YOU","THANKS","THANKYOU"]
-bye_responses = [ "Bye.Thanks for using Careerbot." , "Welcome. Thanks for using Careerbot."]
+bye_responses = [ "Bye.Thanks for using Kite." , "Welcome. See you next time"]
 
-greetings = ["hi","Hi","HI"]
-greetings_responses = ["Hello. I'm Careerbot. I can help you in finding a job for you."]
+greetings = ["hi","Hi","HI","Hello","hello","hey","hey there"]
+greetings_responses = ["Hello. I'm Kite. I can help you in finding a job for you.","Hello. My name is Kite. I can help you in finding a job for you."]
 
 
 def get_response(usrText):
