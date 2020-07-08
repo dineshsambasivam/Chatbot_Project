@@ -1,2 +1,3 @@
-ChatterBot-0.8.4
-simple-websocket-server
+ChatterBot==0.8.4
+simple-websocket-server==0.4.0
+SimpleWebSocketServer==0.1.1
